@@ -55,7 +55,7 @@
 
 .menu-wrap {
 
-    position: absolute;
+    position: fixed;
     top: 60px;
     height: 100%;
     left: 0;
@@ -83,6 +83,7 @@
     display: grid;
     //grid-template-columns: repeat(1, 1fr);
     box-shadow: 0 0 10px #000;
+    line-height: 2;
 
     >div {
         color: #fff;
