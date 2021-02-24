@@ -12,8 +12,8 @@
 		echo '</div>';
 
 		echo '<div class="footer-logoer">';
-			echo '<a href="https://www.egeskov.dk/" target="_blank"><img src="' . get_template_directory_uri() . '/img/egeskov-vaabenskjold.svg" alt="Egeskov Slot" /><p>Egeskov gods</p></a>';
-			echo '<a href="https://www.egeskov.dk/" target="_blank"><img src="' . get_template_directory_uri() . '/img/egeskov-vaabenskjold.svg" alt="Egeskov Slot" /><p>Ravnholt gods</p></a>';
+			echo '<a href="https://www.egeskov.dk/" target="_blank"><img src="' . get_template_directory_uri() . '/img/egeskov-vaabenskjold.svg" alt="Egeskov Slot" /></a>';
+			echo '<a href="https://www.egeskov.dk/" target="_blank"><img src="' . get_template_directory_uri() . '/img/egeskov-vaabenskjold.svg" alt="Egeskov Slot" /></a>';
 		echo '</div>';
 
 

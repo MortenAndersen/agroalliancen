@@ -1,5 +1,6 @@
 body {
 	background: #0a2f18;
+	font-family: Verdana;
 }
 .main-page {
 	overflow: hidden;
@@ -9,4 +10,10 @@ body {
 html, body {
    // min-height: 100% !important;
     //height: 100%;
+}
+h1,h2,h3,h4,h5,h6,.page-name {
+	font-family: 'Domine', serif;
+}
+.page-name {
+	font-size: 1.2em;
 }
