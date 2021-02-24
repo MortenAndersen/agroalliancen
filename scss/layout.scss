@@ -15,5 +15,10 @@ h1,h2,h3,h4,h5,h6,.page-name {
 	font-family: 'Domine', serif;
 }
 .page-name {
-	font-size: 1.2em;
+	font-size: 1em;
+}
+@media (min-width: 767px ){
+	.page-name {
+	font-size: 1.8em;
+}
 }
