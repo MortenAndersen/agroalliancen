@@ -56,6 +56,7 @@
 .menu-wrap {
 
     position: fixed;
+    overflow-y: scroll;
     top: 60px;
     height: 100%;
     left: 0;
@@ -81,9 +82,8 @@
 .all-menu {
     height: 100%;
     display: grid;
-    //grid-template-columns: repeat(1, 1fr);
-    box-shadow: 0 0 10px #000;
     line-height: 2;
+    box-shadow: 0 0 10px #000;
 
     >div {
         color: #fff;
