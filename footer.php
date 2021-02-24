@@ -1,3 +1,4 @@
+
 <?php
 	echo '<footer class="page-footer">';
 
@@ -22,7 +23,9 @@
 							'theme_location' => 'footer-menu-1',
 							'container' =>  false,
 						);
+						$menu = wp_get_nav_menu_object("footer-menu-1" );
 						echo '<div class="footer-menu-1">';
+						echo '<p class="menu-title">Agro-Alliancen</p>';
 						echo '<nav>';
 							wp_nav_menu( $footer_nav_1 );
 						echo '</nav>';
@@ -36,6 +39,7 @@
 							'container' =>  false,
 						);
 						echo '<div class="footer-menu-2">';
+						echo '<p class="menu-title">Udforsk</p>';
 						echo '<nav>';
 							wp_nav_menu( $footer_nav_2 );
 						echo '</nav>';
@@ -49,6 +53,7 @@
 							'container' =>  false,
 						);
 						echo '<div class="footer-menu-3">';
+						echo '<p class="menu-title">Kontakt</p>';
 						echo '<nav>';
 							wp_nav_menu( $footer_nav_3 );
 						echo '</nav>';
