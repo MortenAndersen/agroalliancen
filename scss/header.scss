@@ -1,0 +1,35 @@
+.page-header {
+	overflow: hidden;
+	color: #fff;
+	display: grid;
+	grid-template-columns: 60px auto 80px;
+	height: 60px;
+	position: sticky;
+	top: 0;
+	z-index: 110;
+	background-color: #0a2f18;
+	.admin-bar & {
+        top: 32px;
+    }
+}
+@media screen and (max-width: 782px) {
+	.admin-bar {
+		.page-header {
+			top: 46px;
+		}
+	}
+}
+.menu-icon {
+	background: #fff;
+	color: #222;
+	position: relative;
+}
+.page-name {
+	text-align: center;
+	text-transform: uppercase;
+	align-self: center;
+}
+.page-logo {
+	align-self: center;
+	padding-right: 1em;
+}

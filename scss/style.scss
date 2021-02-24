@@ -1,0 +1,19 @@
+/*!
+Theme Name: Agroaliancen
+Theme URI: https://www.hjemmesider.dk
+Author: Morten Andersen - www.hjemmesider.dk
+Author URI: https://www.hjemmesider.dk/morten-andersen
+Description: Wordpress theme - Agroaliancen
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: agroaliancen-domain
+*/
+
+@import 'reset';
+@import 'wp';
+@import 'header';
+@import 'footer';
+@import 'menu';
+@import 'layout';
+@import 'elements';
