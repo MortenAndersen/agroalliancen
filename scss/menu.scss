@@ -130,6 +130,7 @@
     .menu-3 {
         background-image: url(img/menu3.jpg);
     }
+
 }
 
 .menu-content {
@@ -193,6 +194,27 @@ nav {
     nav {
         a {
             text-transform: uppercase;
+            position: relative;
+            display: block;
+            &:after {
+                background: none repeat scroll 0 0 transparent;
+              bottom: 0;
+              content: "";
+              display: block;
+              height: 2px;
+              //left: 50%;
+              position: absolute;
+              background: #fff;
+              transition: width 0.3s ease 0s, left 0.3s ease 0s;
+              width: 0;
+          }
+          &:hover,
+          &[aria-current="page"] {
+            &:after {
+  width: 100%;
+  left: 0;
+}
+          }
         }
     }
 }
