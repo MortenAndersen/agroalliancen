@@ -99,6 +99,45 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/menu1.jpg": {
+		"ft": 16384,
+		"iS": 134820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/menu1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/menu2.jpg": {
+		"ft": 16384,
+		"iS": 102207,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/menu2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/menu3.jpg": {
+		"ft": 16384,
+		"iS": 233748,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/menu3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/inc/widget.php": {
 		"cB": 0,
 		"ft": 8192,
