@@ -138,7 +138,9 @@
 }
 
 .footer-logoer {
-
+grid-column: 1 / -1;
+        display: flex;
+        justify-content: space-around;
     p {
         margin: .5em 0;
         font-size: 2em;
@@ -171,15 +173,12 @@
     .footer-menu-2,
     .footer-menu-3 {
         order: unset;
-        margin-top: 0em;
         border: none;
     }
 
     .footer-logoer {
         order: 4;
-        grid-column: 1 / -1;
-        display: flex;
-        justify-content: space-around;
+
         border-top: 1px solid rgba(255, 255, 255, .2);
     }
 
