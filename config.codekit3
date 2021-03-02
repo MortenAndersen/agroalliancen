@@ -138,6 +138,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/ravnsholt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/ravnsholt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/inc/widget.php": {
 		"cB": 0,
 		"ft": 8192,
